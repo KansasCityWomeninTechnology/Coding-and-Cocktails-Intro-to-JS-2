@@ -6,12 +6,12 @@ function displayRecipes(recipes) {
     recipesContainer.innerHTML = '';
     recipes.forEach(function(recipe) {
         const recipeElement = document.createElement('div');
-    recipeElement.innerHTML = `
-    <h3></h3>
-    <p>Ingredients:</p>
-    <p>Instructions:</p>
-    `;
-    recipesContainer.appendChild(recipeElement);
+        recipeElement.innerHTML = `
+            <h3></h3>
+            <p>Ingredients:</p>
+            <p>Instructions:</p>
+            `;
+        recipesContainer.appendChild(recipeElement);
     });
 }
 
